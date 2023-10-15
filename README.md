@@ -6,4 +6,4 @@ _RTIPs_, or _RCAX Token Improvement Proposals_, they are used to suggest and dis
 
 |Number|Type|Title|Owner|Status|
 |:-:|:-|:-|:-|:-|
-[1](/RTIP-0001.md)|Fork|Improve upon RCAX Token V1|Warm Beer|Draft|
+[1](/RTIP-1.md)|Fork|Improve upon RCAX Token V1|Warm Beer|Draft|
