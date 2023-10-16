@@ -2,17 +2,19 @@
 |-:|:---|
 |__Type:__|Fork|
 |__Authors:__|Warm Beer|
-|__Version:__|0.2.2|
+|__Version:__|0.2.3|
 |__Status:__|Draft|
 |__Created:__|2023-10-14|
 |__Updated:__|2023-10-16|
 |__Resolution:__||
 
 # Introduction
+
 This proposal outlines the introduction of RCAX Token V2 through a fork. The existing RCAX token will be rebranded as RCAX Classic or RCAX V1, while the new fork will be known as RCAX Token or RCAX V2.
 
 # Specification
-__The following changes would be made to the RCAX token smart contract and launched on a new token address:__
+
+The following changes would be made to the RCAX token smart contract and launched on a new token address:
 
 1. Any RCAX Classic tokens can be converted to the new RCAX tokens with a 1:1 ratio, during a time period of 3 months after the fork launches.
 2. Burned avatars will be forwarded to the `0x000...dEaD` address instead of being held in the RCAX token smart contract.
@@ -25,6 +27,10 @@ import "@openzeppelin/contracts-upgradeable@4.9.3/token/ERC20/extensions/ERC20Vo
 These extensions empower the community to propose and vote on project decisions using their tokens, using a platform such as https://tally.xyz, a vital step towards RCAX's evolution into a DAO (Decentralized Autonomous Organization).
 
 5. The maximum supply cap of `72,290,000` will be removed to eliminate confusion about the current supply, as it is highly unlikely to ever be reached.
+
+# Specification (optional/recommended)
+
+The following changes will be voted upon by the community through a poll:
 
 ### [C1] Base Reward & Halvings
 
