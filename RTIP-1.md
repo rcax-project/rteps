@@ -2,14 +2,14 @@
 |-:|:---|
 |__Type:__|Fork|
 |__Authors:__|Warm Beer|
-|__Version:__|0.1.0|
+|__Version:__|0.2.0|
 |__Status:__|Draft|
 |__Created:__|2023-10-14|
-|__Updated:__||
+|__Updated:__|2023-10-16|
 |__Resolution:__||
 
 # Introduction
-This is a proposal to fork the RCAX token. The current RCAX token would be renamed RCAX Classic or RCAX V1. This new fork would be called RCAX token or RCAX V2. 
+This proposal outlines the introduction of RCAX Token V2 through a fork. The existing RCAX token will be rebranded as RCAX Classic or RCAX V1, while the new fork will be known as RCAX Token or RCAX V2.
 
 # Specification
 __The following changes would be made to the RCAX token smart contract and launched on a new token address:__
@@ -22,23 +22,19 @@ __The following changes would be made to the RCAX token smart contract and launc
 import "@openzeppelin/contracts-upgradeable@4.9.3/token/ERC20/extensions/ERC20PermitUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable@4.9.3/token/ERC20/extensions/ERC20VotesUpgradeable.sol";
 ```
-These extensions allow the community to create proposals for the project and vote using their tokens. A necessary step for RCAX to become
-a DAO.
+These extensions empower the community to propose and vote on project decisions using their tokens, using a platform such as https://tally.xyz, a vital step towards RCAX's evolution into a DAO (Decentralized Autonomous Organization).
 
-5. The max supply cap of `72,290,000` will be removed as it is extremely unlikely that it will be reached and only causes confusion about the current supply.
-
-
-__The following changes are recommended, but the community will decide whether they will be included by a poll:__
+5. The maximum supply cap of 72,290,000 will be removed to eliminate confusion about the current supply, as it is highly unlikely to ever be reached.
 
 ### [C1] Base Reward & Halvings
 
-C1/A. Change the starting base reward to `60` and remove the max halvings lock. The first halving will occur 8 weeks after contract deployment, the second halving will take 16 weeks, then any subsequent halving will take 24 weeks.
+C1/A. Modify the initial base reward to 60 and remove the maximum halvings lock. The first halving will occur 8 weeks after contract deployment, the second halving will take 16 weeks, and any subsequent halvings will take 24 weeks.
 
-C1/B. Change the starting base reward to `60`. The first month, 100% of the base reward will be rewarded for mining and any subsequent months will lower the reward by 10% of the original base reward. So after 4 months, the base reward will be 60% of `60`. Until the base reward reaches 0%.
+C1/B. Adjust the initial base reward to 60. For the first month, 100% of the base reward will be distributed for mining, with subsequent months reducing the reward by 10% of the original base reward. Consequently, after 4 months, the base reward will be 60% of 60, continuing to decrease until it reaches 0%.
 
 ### [C2] Development Wallet Reward
 
-C2. Update the development wallet reward when mining from 10% to 15%. This will NOT be applied retroactively.
+C2. Update the additional development wallet reward when mining from 10% to 15%. This will not be applied retroactively and will only count for future mining rewards.
 
 ### [C3] Eligible Avatars for Mining
 
@@ -60,21 +56,21 @@ C4. Deploy the contract as proxy so that `Warm Beer` can make changes to the con
 
 ### [C1]
 
-Adoption is very important for a project such as this. Currently there are only about ~200 unique holders of RCAX after the first halving period. I believe that this is not enough for a healthy community and I worry that with the current aggressive halvening timeline, new people would be very hesitant to get invested in the project. This is why I want to propose slowing down the halvening timeline to make it more appealing for new people to join the project.
+Project adoption plays a pivotal role in its success. Presently, there are only approximately 200 unique holders of RCAX after the initial halving period. This figure falls short of building a robust and vibrant community, and my concern is that the aggressive halving timeline in place might deter potential newcomers from participating in the project. Consequently, I propose a more gradual reduction in the halving timeline to enhance its attractiveness for new entrants.
 
-Solution C1/A is `Warm Beer`'s proposal. Solution C1/B has been suggested by Discord user `ulang`. The community may choose between one of these proposals or not to change the halvening timeline at all.
+Solution C1/A is the brainchild of 'Warm Beer,' while Solution C1/B has been put forward by Discord user 'ulang.' The community has the option to choose between these proposals or maintain the current halving timeline.
 
 ### [C2]
 
-The development wallet is used to pay out bounties for the RCAX project and incentivizes community members to improve the project. This is also the only fund where developers are paid from. Exchanges also require quite a hefty sum of liquidity in exchange for token listings and this will also have to come from the development wallet. I worry that the current dev mine reward bonus of 10% is just too small to pay for all this and upping it to 15% from now on would give the project more room to pay for these (future) expenses. The development wallet makes sure that the project does not have to rely on community donations.
+The development wallet serves as the financial source for disbursing bounties within the RCAX project, motivating community members to contribute. Additionally, it's the sole fund from which developers receive compensation. Moreover, considerable liquidity is demanded by exchanges in exchange for listing tokens, and this liquidity also originates from the development wallet. My apprehension is that the current developer mining reward bonus of 10% might not suffice for these financial obligations. Increasing it to 15% would provide the project with more financial flexibility to cover both existing and future expenses. The development wallet ensures the project's sustainability without reliance on community donations.
 
 ### [C3]
 
-WIP
+I'm concerned that the pricing of RCAX is closely tied to the availability of Gen 3 and 4 avatars in the shop. By allowing only sold-out avatars to be obtained as mining rewards, RCAX's value would only be influenced by the secondary floor prices of these avatars. Notably, both the WC2022 and NFL collections boast around 1 million unique owners each. Enabling mining for these avatars would encourage these holders to participate in the RCAX project.
 
 ### [C4]
 
-WIP
+Implementing a token fork is a substantial undertaking. It entails updating the token address across all our decentralized applications and documents, as well as ensuring the entire community is well-informed about these changes. This process can be quite burdensome for even minor project adjustments. Hence, I propose launching the new token as a proxy, allowing post-launch updates. The risk of developers having access to all the burned avatars is no longer there, as they will be redirected to the `0x000...dEaD` address instead of being held within the RCAX token smart contract.
 
 # Implementation
 
