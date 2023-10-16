@@ -60,23 +60,23 @@ C4. Deploy the contract as proxy so that `Warm Beer` can make changes to the con
 
 # Motivation
 
-### [C1]
+### [C1] Base Reward & Halvings
 
 Project adoption plays a pivotal role in its success. Presently, there are only approximately 200 unique holders of RCAX after the initial halving period. This figure falls short of building a robust and vibrant community, and my concern is that the aggressive halving timeline in place might deter potential newcomers from participating in the project. Consequently, I propose a more gradual reduction in the halving timeline to enhance its attractiveness for new entrants.
 
 Solution C1/A is the proposal of `Warm Beer`, while Solution C1/B has been put forward by Discord user `ulang`. The community has the option to choose between these proposals or maintain the current halving timeline.
 
-### [C2]
+### [C2] Development Wallet Reward
 
 The development wallet serves as the financial source for disbursing bounties within the RCAX project, motivating community members to contribute. Additionally, it's the sole fund from which developers receive compensation. Moreover, considerable liquidity is demanded by exchanges in exchange for listing tokens, and this liquidity also originates from the development wallet. My apprehension is that the current developer mining reward bonus of 10% might not suffice for these financial obligations. Increasing it to 15% would provide the project with more financial flexibility to cover both existing and future expenses. The development wallet ensures the project's sustainability without reliance on community donations.
 
-### [C3]
+### [C3] Eligible Avatars for Mining
 
 I'm concerned that the pricing of RCAX is closely tied to the availability of Gen 3 and 4 avatars in the shop. By allowing only sold-out avatars to be used for mining rewards, RCAX's value would only be influenced by the secondary floor prices of these avatars. 
 
 Both the WC2022 and NFL collections boast around 1 million unique owners each. Enabling mining for these avatars would encourage these holders to participate in the RCAX project. This would be a massive increase in new users being eligible to participate in RCAX mining and will be great for adoption.
 
-### [C4]
+### [C4] Contract Mutability
 
 Implementing a token fork is a substantial undertaking. It entails updating the token address across all our decentralized applications and documents, as well as ensuring the entire community is well-informed about these changes. This process can be quite burdensome for even minor project adjustments. Hence, I propose launching the new token as a proxy, allowing post-launch updates. The risk of developers having access to all the burned avatars is no longer there, as they will be redirected to the `0x000...dEaD` address instead of being held within the RCAX token smart contract.
 
