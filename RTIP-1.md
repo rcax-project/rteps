@@ -66,7 +66,7 @@ Solution C1/A is `Warm Beer`'s proposal. Solution C1/B has been suggested by Dis
 
 ### [C2]
 
-The development wallet is used to pay out bounties for the RCAX project and incentives community members to improve the project. This is also the only fund where developers are paid from. Exchanges also require quite a hefty sum of liquidity in exchange for token listings and this will also have to come from the development wallet. I worry that the current dev mine reward bonus of 10% is just too small to pay for all this and upping it to 15% from now on would give the project more room to pay for these (future) expenses. The development wallet makes sure that the project does not have to rely on community donations.
+The development wallet is used to pay out bounties for the RCAX project and incentivizes community members to improve the project. This is also the only fund where developers are paid from. Exchanges also require quite a hefty sum of liquidity in exchange for token listings and this will also have to come from the development wallet. I worry that the current dev mine reward bonus of 10% is just too small to pay for all this and upping it to 15% from now on would give the project more room to pay for these (future) expenses. The development wallet makes sure that the project does not have to rely on community donations.
 
 ### [C3]
 
