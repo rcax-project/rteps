@@ -82,7 +82,7 @@ Implementing a token fork is a substantial undertaking. It entails updating the 
 
 # Implementation
 
-If C1/A, C2 & C4 are accepted: https://github.com/rca-explorer/rcax-token/blob/main/contracts/RCAXToken.sol
+If C1/A, C2 & C4 are accepted: https://github.com/rcax-project/rcax-token/blob/main/contracts/RCAXToken.sol
 
 
 
