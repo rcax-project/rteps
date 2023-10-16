@@ -2,7 +2,7 @@
 |-:|:---|
 |__Type:__|Fork|
 |__Authors:__|Warm Beer|
-|__Version:__|0.2.1|
+|__Version:__|0.2.2|
 |__Status:__|Draft|
 |__Created:__|2023-10-14|
 |__Updated:__|2023-10-16|
@@ -66,7 +66,9 @@ The development wallet serves as the financial source for disbursing bounties wi
 
 ### [C3]
 
-I'm concerned that the pricing of RCAX is closely tied to the availability of Gen 3 and 4 avatars in the shop. By allowing only sold-out avatars to be obtained as mining rewards, RCAX's value would only be influenced by the secondary floor prices of these avatars. Notably, both the WC2022 and NFL collections boast around 1 million unique owners each. Enabling mining for these avatars would encourage these holders to participate in the RCAX project.
+I'm concerned that the pricing of RCAX is closely tied to the availability of Gen 3 and 4 avatars in the shop. By allowing only sold-out avatars to be used for mining rewards, RCAX's value would only be influenced by the secondary floor prices of these avatars. 
+
+Both the WC2022 and NFL collections boast around 1 million unique owners each. Enabling mining for these avatars would encourage these holders to participate in the RCAX project. This would be a massive increase in new users being eligible to participate in RCAX mining and will be great for adoption.
 
 ### [C4]
 
