@@ -24,7 +24,7 @@ import "@openzeppelin/contracts-upgradeable@4.9.3/token/ERC20/extensions/ERC20Vo
 ```
 These extensions empower the community to propose and vote on project decisions using their tokens, using a platform such as https://tally.xyz, a vital step towards RCAX's evolution into a DAO (Decentralized Autonomous Organization).
 
-5. The maximum supply cap of 72,290,000 will be removed to eliminate confusion about the current supply, as it is highly unlikely to ever be reached.
+5. The maximum supply cap of `72,290,000` will be removed to eliminate confusion about the current supply, as it is highly unlikely to ever be reached.
 
 ### [C1] Base Reward & Halvings
 
