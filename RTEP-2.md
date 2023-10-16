@@ -2,7 +2,7 @@
 |-:|:---|
 |__Type:__|Fork|
 |__Authors:__|Warm Beer|
-|__Version:__|0.2.0|
+|__Version:__|0.2.1|
 |__Status:__|Draft|
 |__Created:__|2023-10-14|
 |__Updated:__|2023-10-16|
@@ -14,7 +14,7 @@ This proposal outlines the introduction of RCAX Token V2 through a fork. The exi
 # Specification
 __The following changes would be made to the RCAX token smart contract and launched on a new token address:__
 
-1. Any RCAX Classic tokens can be converted to the new RCAX tokens with a 1:1 ratio.
+1. Any RCAX Classic tokens can be converted to the new RCAX tokens with a 1:1 ratio, during a time period of 3 months after the fork launches.
 2. Burned avatars will be forwarded to the `0x000...dEaD` address instead of being held in the RCAX token smart contract.
 3. The `Old School Cool` collection contract address will be fixed so that these avatars can also be burned for mine rewards.
 4. The following openzeppelin extensions will be implemented:
