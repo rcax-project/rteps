@@ -58,7 +58,7 @@ C4. Deploy the contract as proxy so that `Warm Beer` can make changes to the con
 
 Project adoption plays a pivotal role in its success. Presently, there are only approximately 200 unique holders of RCAX after the initial halving period. This figure falls short of building a robust and vibrant community, and my concern is that the aggressive halving timeline in place might deter potential newcomers from participating in the project. Consequently, I propose a more gradual reduction in the halving timeline to enhance its attractiveness for new entrants.
 
-Solution C1/A is the brainchild of 'Warm Beer,' while Solution C1/B has been put forward by Discord user 'ulang.' The community has the option to choose between these proposals or maintain the current halving timeline.
+Solution C1/A is the proposal of `Warm Beer`, while Solution C1/B has been put forward by Discord user `ulang`. The community has the option to choose between these proposals or maintain the current halving timeline.
 
 ### [C2]
 
