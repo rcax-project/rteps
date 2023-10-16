@@ -78,7 +78,7 @@ WIP
 
 # Implementation
 
-If C1/A, C2 & C4 are accepted: WIP
+If C1/A, C2 & C4 are accepted: https://github.com/rca-explorer/rcax-token/blob/main/contracts/RCAXToken.sol
 
 
 
