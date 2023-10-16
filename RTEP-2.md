@@ -1,4 +1,4 @@
-|RTP: 0001|Introduce RCAX Token V2|
+|RTEP: 2|Introduce RCAX Token V2|
 |-:|:---|
 |__Type:__|Fork|
 |__Authors:__|Warm Beer|
