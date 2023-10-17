@@ -2,7 +2,7 @@
 |-:|:---|
 |__Type:__|Fork|
 |__Authors:__|Warm Beer|
-|__Version:__|0.2.4|
+|__Version:__|0.2.5|
 |__Status:__|Draft|
 |__Created:__|2023-10-14|
 |__Updated:__|2023-10-17|
@@ -11,6 +11,7 @@
 # Introduction
 
 This proposal outlines the introduction of RCAX Token V2 through a fork. The existing RCAX token will be rebranded as RCAX Classic or RCAX V1, while the new fork will be known as RCAX Token or RCAX V2.
+Readers are expected to be familiar with the [whitepaper](https://whitepaper.rcax.io).
 
 # Specification
 
