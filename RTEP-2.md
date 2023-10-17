@@ -2,10 +2,10 @@
 |-:|:---|
 |__Type:__|Fork|
 |__Authors:__|Warm Beer|
-|__Version:__|0.2.3|
+|__Version:__|0.2.4|
 |__Status:__|Draft|
 |__Created:__|2023-10-14|
-|__Updated:__|2023-10-16|
+|__Updated:__|2023-10-17|
 |__Resolution:__||
 
 # Introduction
@@ -44,9 +44,9 @@ C2. Update the additional development wallet reward when mining from 10% to 15%.
 
 ### [C3] Eligible Avatars for Mining
 
-C3.1. Set Gen 4 base reward multiplier to `0`.
+C3.1. Set Gen 4 base reward multiplier to `0`. If Gen 4 sells out in the shop and C4 is passed, set the multiplier to `1`.
 
-C3.2. Set Gen 3 base reward multiplier to `0`.
+C3.2. Set Gen 3 base reward multiplier to `0`. If Gen 3 sells out in the shop and C4 is passed, set the multiplier to `6`.
 
 C3.3. Set Aww, Drip, Meme & Singularity base reward multipliers to `4`.
 
