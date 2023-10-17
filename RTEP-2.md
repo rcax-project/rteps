@@ -53,11 +53,11 @@ C3.3. Set Aww, Drip, Meme & Singularity base reward multipliers to `4`.
 
 C3.3. Set WC2022 base reward multiplier to `0.1`.
 
-C3.4. Set NFL (The free variant) base reward multiplier to `0.1`.
+C3.4. Set NFL (free variant) base reward multiplier to `0.1`.
 
 ### [C4] Contract Mutability
 
-C4. Deploy the contract as proxy so that `Warm Beer` (the founder and main developer of RCAX) can make changes to the contract post-launch without needing to fork the project again.
+C4. Deploy the contract as proxy so that `Warm Beer` (the founder and developer of RCAX) can make changes to the contract post-launch without needing to fork the project again.
 
 # Motivation
 
