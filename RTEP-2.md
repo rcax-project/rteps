@@ -2,7 +2,7 @@
 |-:|:---|
 |__Type:__|Fork|
 |__Authors:__|Warm Beer|
-|__Version:__|0.2.5|
+|__Version:__|0.2.6|
 |__Status:__|Draft|
 |__Created:__|2023-10-14|
 |__Updated:__|2023-10-17|
@@ -35,9 +35,9 @@ The following changes will be voted upon by the community through a poll:
 
 ### [C1] Base Reward & Halvings
 
-C1/A. Modify the initial base reward to 60 and remove the maximum halvings lock. The first halving will occur 8 weeks after contract deployment, the second halving will take 16 weeks, and any subsequent halvings will take 24 weeks.
+C1/A. Modify the initial base reward to `60` (from `120`, since one halving has already been completed) and remove the maximum halvings lock. The first halving will take place 8 weeks after contract deployment, the second halving will take 16 weeks after the last halving, and any subsequent halvings will be on 24-week intervals.
 
-C1/B. Adjust the initial base reward to 60. For the first month, 100% of the base reward will be distributed for mining, with subsequent months reducing the reward by 10% of the original base reward. Consequently, after 4 months, the base reward will be 60% of 60, continuing to decrease until it reaches 0%.
+C1/B. Adjust the initial base reward to `60` (from `120`, since one halving has already been completed). For the first month, 100% of the base reward will be distributed for mining, with subsequent months reducing the reward by 10% of the original base reward. Consequently, after 4 months, the base reward will be 60% of 60, continuing to decrease until it reaches 0%.
 
 ### [C2] Development Wallet Reward
 
@@ -53,11 +53,11 @@ C3.3. Set Aww, Drip, Meme & Singularity base reward multipliers to `4`.
 
 C3.3. Set WC2022 base reward multiplier to `0.1`.
 
-C3.4. Set NFL (The free one) base reward multiplier to `0.1`.
+C3.4. Set NFL (The free variant) base reward multiplier to `0.1`.
 
 ### [C4] Contract Mutability
 
-C4. Deploy the contract as proxy so that `Warm Beer` can make changes to the contract post-launch without needing to fork the project again.
+C4. Deploy the contract as proxy so that `Warm Beer` (the founder and main developer of RCAX) can make changes to the contract post-launch without needing to fork the project again.
 
 # Motivation
 
@@ -69,21 +69,23 @@ Solution C1/A is the proposal of `Warm Beer`, while Solution C1/B has been put f
 
 ### [C2] Development Wallet Reward
 
-The development wallet serves as the financial source for disbursing bounties within the RCAX project, motivating community members to contribute. Additionally, it's the sole fund from which developers receive compensation. Moreover, considerable liquidity is demanded by exchanges in exchange for listing tokens, and this liquidity also originates from the development wallet. My apprehension is that the current developer mining reward bonus of 10% might not suffice for these financial obligations. Increasing it to 15% would provide the project with more financial flexibility to cover both existing and future expenses. The development wallet ensures the project's sustainability without reliance on community donations.
+The development wallet serves as the financial source for disbursing bounties within the RCAX project, motivating community members to contribute. Additionally, it is the sole fund from which developers receive compensation. Moreover, considerable liquidity is demanded by exchanges in exchange for listing tokens, and this liquidity also originates from the development wallet. My apprehension is that the current developer mining reward bonus of 10% might not suffice for these financial obligations. Increasing it to 15% would provide the project with more financial flexibility to cover both existing and future expenses. The development wallet ensures the project's sustainability without reliance on community donations.
 
 ### [C3] Eligible Avatars for Mining
 
-I'm concerned that the pricing of RCAX is closely tied to the availability of Gen 3 and 4 avatars in the shop. By allowing only sold-out avatars to be used for mining rewards, RCAX's value would only be influenced by the secondary floor prices of these avatars. 
+I am concerned that the pricing of RCAX is closely tied to the availability of Gen 3 and 4 avatars in the shop. By allowing only sold-out avatars to be used for mining rewards, RCAX's value would only be influenced by the secondary floor prices of these avatars. 
 
 Both the WC2022 and NFL collections boast around 1 million unique owners each. Enabling mining for these avatars would encourage these holders to participate in the RCAX project. This would be a massive increase in new users being eligible to participate in RCAX mining and will be great for adoption.
 
 ### [C4] Contract Mutability
 
-Implementing a token fork is a substantial undertaking. It entails updating the token address across all our decentralized applications and documents, as well as ensuring the entire community is well-informed about these changes. This process can be quite burdensome for even minor project adjustments. Hence, I propose launching the new token as a proxy, allowing post-launch updates. The risk of developers having access to all the burned avatars is no longer there, as they will be redirected to the `0x000...dEaD` address instead of being held within the RCAX token smart contract.
+Implementing a token fork is a substantial undertaking. It entails updating the token address across all our decentralized applications and documents, as well as ensuring the entire community is well-informed about these changes. This process can be quite burdensome for even minor project adjustments. 
+
+I propose launching the new token as a proxy, allowing post-launch updates. The risk of developers having access to all the burned avatars is no longer there, as they will be redirected to the `0x000...dEaD` address instead of being held within the RCAX token smart contract. This will make it possible to tweak certain settings and fix any problems post-launch without needing to fork.
 
 # Implementation
 
-If C1/A, C2 & C4 are accepted: https://github.com/rcax-project/rcax-token/blob/main/contracts/RCAXToken.sol
+Implementation of the new RCAX token smart contract if C1/A, C2 & C4 are accepted: https://github.com/rcax-project/rcax-token/blob/main/contracts/RCAXToken.sol
 
 The implementation is not fully tested yet and unaudited. I invite everyone to help review.
 
