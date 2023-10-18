@@ -2,7 +2,7 @@
 |-:|:---|
 |__Type:__|Fork|
 |__Authors:__|Warm Beer|
-|__Version:__|0.2.6|
+|__Version:__|0.3.0|
 |__Status:__|Draft|
 |__Created:__|2023-10-14|
 |__Updated:__|2023-10-17|
@@ -38,6 +38,8 @@ The following changes will be voted upon by the community through a poll:
 C1/A. Modify the initial base reward to `60` (from `120`, since one halving has already been completed) and remove the maximum halvings lock. The first halving will take place 8 weeks after contract deployment, the second halving will take 16 weeks after the last halving, and any subsequent halvings will be on 24-week intervals.
 
 C1/B. Adjust the initial base reward to `60` (from `120`, since one halving has already been completed). For the first month, 100% of the base reward will be distributed for mining, with subsequent months reducing the reward by 10% of the original base reward. Consequently, after 4 months, the base reward will be 60% of 60, continuing to decrease until it reaches 0%.
+
+C1/C. Modify the initial base reward to `60` (from `120`, since one halving has already been completed) and remove the maximum halvings lock. Set the halving interval to 24 weeks.
 
 ### [C2] Development Wallet Reward
 
