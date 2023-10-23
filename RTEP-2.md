@@ -2,7 +2,7 @@
 |-:|:---|
 |__Type:__|Fork|
 |__Authors:__|Warm Beer|
-|__Version:__|0.3.1|
+|__Version:__|0.3.2|
 |__Status:__|Draft|
 |__Created:__|2023-10-14|
 |__Updated:__|2023-10-23|
@@ -25,7 +25,7 @@ The following changes would be made to the RCAX token smart contract and launche
 import "@openzeppelin/contracts-upgradeable@4.9.3/token/ERC20/extensions/ERC20PermitUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable@4.9.3/token/ERC20/extensions/ERC20VotesUpgradeable.sol";
 ```
-These extensions empower the community to propose and vote on project decisions using their tokens, using a platform such as https://tally.xyz, a vital step towards RCAX's evolution into a DAO (Decentralized Autonomous Organization).
+These extensions empower the community to propose and vote on project decisions using their tokens after deployment of a governor contract, using a platform such as https://tally.xyz, a vital step towards RCAX's evolution into a DAO (Decentralized Autonomous Organization).
 
 ~~5. The maximum supply cap of `72,290,000` will be removed to eliminate confusion about the current supply, as it is highly unlikely to ever be reached.~~
 
