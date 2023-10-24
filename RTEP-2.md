@@ -2,11 +2,11 @@
 |-:|:---|
 |__Type:__|Fork|
 |__Authors:__|Warm Beer|
-|__Version:__|0.3.2|
-|__Status:__|Draft|
+|__Version:__|0.3.3|
+|__Status:__|Final|
 |__Created:__|2023-10-14|
-|__Updated:__|2023-10-23|
-|__Resolution:__||
+|__Updated:__|2023-10-24|
+|__Resolution:__|S5 dropped. C1/C, C2, C3.1, C3.2, C3.3, C3.4 & C4 passed.|
 
 # Introduction
 
