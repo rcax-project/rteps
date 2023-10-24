@@ -6,4 +6,4 @@ _RTEPs_, or _RCAX Token Enhancement Proposals_, are used to suggest and discuss 
 
 |Number|Type|Title|Owner|Status|
 |:-:|:-|:-|:-|:-|
-[2](/RTEP-2.md)|Fork|Introduce RCAX Token V2|Warm Beer|Draft|
+[2](/RTEP-2.md)|Fork|Introduce RCAX Token V2|Warm Beer|Final|
